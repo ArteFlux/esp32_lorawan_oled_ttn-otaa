@@ -8,3 +8,5 @@ An working example to send data through LoRaWAN-TTN network using an WIFI LoRa 3
 
    Do not forget to define the radio type correctly in
    arduino-lmic/project_config/lmic_project_config.h or from your BOARDS.txt."
+
+This example uses ttn-oatt and sends "Hi" every 300s (5min).
